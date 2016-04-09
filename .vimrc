@@ -12,13 +12,13 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
-Plug 'nachumk/systemverilog.vim'  
 Plug 'vim-scripts/VisIncr'
 Plug 'bling/vim-airline'
 Plug 'ludovicchabant/vim-lawrencium'
 
 call plug#end()
 
+"Plug 'nachumk/systemverilog.vim'  
 "Plug 'jistr/vim-nerdtree-tabs'
 "Plug 'MarcWeber/vim-addon-mw-utils'
 "Plug 'tomtom/tlib_vim'
