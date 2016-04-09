@@ -5,6 +5,12 @@ if empty(glob('~/.vim/autoload/plug.vim'))
       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
    autocmd VimEnter * PlugInstall
 endif
+
+if empty(glob('~/.vim/colors/solarized.vim'))
+   silent !mkdir -p ~/.vim/colors
+   silent !curl -fLo ~/.vim/colors/solarized.vim
+      \ https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim
+endif
 " }}}
 
 
